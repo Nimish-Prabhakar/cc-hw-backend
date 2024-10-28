@@ -1,6 +1,5 @@
-// models/user.js
 const { DataTypes } = require("sequelize");
-const sequelize = require("./index");
+const sequelize = require("./index"); // Importing the initialized sequelize instance
 
 const User = sequelize.define("User", {
   username: {
